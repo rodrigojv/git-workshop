@@ -305,3 +305,7 @@ Antes que leer otra cosa se recimenta revisar los siguientes artículos:
 - [Oh Shit, Git!?!](https://ohshitgit.com/): una guía corta sobre como recuperarse de errores comunes con Git.
 - [How to explain git in simple words](https://smusamashah.github.io/blog/2017/10/14/explain-git-in-simple-words)
 - [Learn Git Branching](https://learngitbranching.js.org/): un juego en el navegador que te enseña Git.
+
+## Otros recursos
+
+- Integración enchulada de Git en el shell prompt, para ver la rama actual y el estado: [zsh](https://github.com/olivierverdier/zsh-git-prompt), [bash](https://github.com/magicmonty/bash-git-prompt). También existen frameworks [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh).
