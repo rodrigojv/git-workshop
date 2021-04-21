@@ -262,4 +262,46 @@ Una vez que se clonó se debería observar un directorio con el nombre `git-work
     $ ls
     README.md
 
-Con el comando `git remote` podemos listar los remotes, que son basicamente nombres asignados por Git, con URL indicando la localidad de esos remotes, que son básicamente copias exactas de lo que tenemos localmente.
+Con el comando `git remote -v` podemos listar los remotes, que son basicamente nombres asignados por Git, con URL indicando la localidad de esos remotes, que son básicamente copias exactas de lo que tenemos localmente.
+
+```
+$ git remote -v
+origin	https://github.com/rodrigojv/git-workshop.git (fetch)
+origin	https://github.com/rodrigojv/git-workshop.git (push)
+```
+
+### Comandos para manejar remotes
+
+- `git push <remote> <local branch>:<remote branch>`: envía objetos al remote
+- `git fetch`: obtiene nuevos cambios y ramas (y otras referencias) del remoto
+- `git pull`: lo mismo que `git fetch; git merge`
+
+### 🔥 Demo de `pull`, `push` y pull request.
+
+1. Crear un archivo en repo clonado
+2. Subir ese archivo con push
+3. Modificar el archivo en Github
+4. Traer los cambios hechos en Github al local
+5. Crear un pull request de los cambios
+
+## Ejercicio
+
+1. Fork y clone de https://github.com/jokoframework/joko-utils
+2. Realizar algunos de los cambios sugeridos por el instructor
+3. Crear un pull request de los cambios
+
+## Importancia de buenos mensajes de commit
+
+**Es importante siempre escribir buenos mensajes de commit.**
+
+Antes que leer otra cosa se recimenta revisar los siguientes artículos:
+
+- https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+- https://chris.beams.io/posts/git-commit/
+
+## Lectura adicional
+
+- [Pro Git](https://git-scm.com/book/en/v2): altamente recomendado. Leer al menos los capítulos del 1 al 5.
+- [Oh Shit, Git!?!](https://ohshitgit.com/): una guía corta sobre como recuperarse de errores comunes con Git.
+- [How to explain git in simple words](https://smusamashah.github.io/blog/2017/10/14/explain-git-in-simple-words)
+- [Learn Git Branching](https://learngitbranching.js.org/): un juego en el navegador que te enseña Git.
