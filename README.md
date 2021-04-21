@@ -20,7 +20,7 @@ Es conveniente configurar tu identidad para poder trabajar con otros.
 
 También es útil configurar tu editor favorito a la hora de resolver conflictos.
 
-    $ git config --global core.editor vscode
+    $ git config --global core.editor "code --wait"
 
 ## Directorio de trabajo
 
