@@ -1,4 +1,6 @@
-# ¿Qué es Git?
+# Workshop de Git
+
+## ¿Qué es Git?
 
 Un sistema _distribuido_ de **control de versiones**.
 
