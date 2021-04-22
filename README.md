@@ -294,7 +294,7 @@ origin	https://github.com/rodrigojv/git-workshop.git (push)
 
 **Es importante siempre escribir buenos mensajes de commit.**
 
-Antes que leer otra cosa se recimenta revisar los siguientes artículos:
+Antes que leer otra cosa se recomienda revisar los siguientes artículos:
 
 - https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 - https://chris.beams.io/posts/git-commit/
@@ -308,4 +308,4 @@ Antes que leer otra cosa se recimenta revisar los siguientes artículos:
 
 ## Otros recursos
 
-- Integración enchulada de Git en el shell prompt, para ver la rama actual y el estado: [zsh](https://github.com/olivierverdier/zsh-git-prompt), [bash](https://github.com/magicmonty/bash-git-prompt). También existen frameworks [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh).
+- Integración enchulada de Git en el shell prompt, para ver la rama actual y el estado: [zsh](https://github.com/olivierverdier/zsh-git-prompt), [bash](https://github.com/magicmonty/bash-git-prompt). También existen frameworks como [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh).
